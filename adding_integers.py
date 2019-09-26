@@ -19,7 +19,7 @@ def main():
 
     # output
     print("")
-    print("Your sum is {}".format(total))
+    print("{0} + {1} = {2}".format(first_integer, second_integer, total))
 
 
 if __name__ == "__main__":
